@@ -108,6 +108,11 @@ const ImageContainer = styled.section`
 const Image = styled.img`
   width: 350px;
   height: 350px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 200px;
+  }
 `;
 
 const Divider = styled.hr`
