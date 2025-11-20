@@ -85,6 +85,16 @@ const Item = styled.li<{ color: string }>`
     opacity: 0.8;
     transition: background-color 0s;
   }
+
+  @media (max-width: 768px) {
+    &:hover {
+      transform: scale(1);
+    }
+
+    &:active {
+      background-color: transparent;
+    }
+  }
 `;
 
 const Header = styled.section`
